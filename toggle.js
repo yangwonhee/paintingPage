@@ -6,11 +6,10 @@
 //     darkModeBG.classList.toggle("dark-mode");
 //     toggleBtnColor();
 // }
-const darkModeBg = document.querySelector('#BackGroundColor');
-const switchButton = document.getElementById("myCheck");
+const darkModeBg = document.getElementById('BackGroundColor');
+const switchButton = document.querySelector(".myCheck");
 
 function darkModeFunction() {
-    // const darkModeBg = document.body;
     if (switchButton.checked == true){
       darkModeBg.classList.add("dark-mode")
     } else {

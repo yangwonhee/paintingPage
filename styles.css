@@ -51,30 +51,13 @@ body {
   color: #ffffff;
 }
 
-/* .toggleBG {
-  margin-left: auto;
-  background: #cccccc;
-  width: 45px;
-  height: 20px;
-  border: 1px solid #cccccc;
-  border-radius: 15px;
-  float: right;
-}
-
-.toggleFG {
-  background: var(--blue-color);
-  width: 20px;
-  height: 20px;
-  border: none;
-  border-radius: 15px;
-  position: relative;
-  left: 0px;
-} */
-
 /* The switch - the box around the slider */
 .switch {
-  position: relative;
-  margin-left: auto;
+  /* position: relative; */
+  /* margin-left: auto; */
+  position: absolute;
+  top: 30px;
+  right: 32%;
   display: inline-block;
   width: 60px;
   height: 34px;
@@ -95,7 +78,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: var(--dark-color);
+  background-color: var(--dark-background-color);
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -127,11 +110,11 @@ input:checked + .slider:before {
 }
 
 /* Rounded sliders */
-.slider.round {
+.slider {
   border-radius: 34px;
 }
 
-.slider.round:before {
+.slider:before {
   border-radius: 50%;
 }
 
