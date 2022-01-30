@@ -6,7 +6,7 @@
 //     darkModeBG.classList.toggle("dark-mode");
 //     toggleBtnColor();
 // }
-const darkModeBg = document.querySelector('.BackGroundColor');
+const darkModeBg = document.querySelector('#BackGroundColor');
 const switchButton = document.getElementById("myCheck");
 
 function darkModeFunction() {
