@@ -28,11 +28,7 @@
     <title>Painting!</title>
 </head>
 
-<body id="BackGroundColor" class="">
-    <label class="switch">
-        <input type="checkbox" class="myCheck" onclick="darkModeFunction()" ></input>
-        <span class="slider"></span>
-      </label>
+<body>
     <form id="login-form" class="hidden">
         <div class="loginBox">
             <input required maxlength="15" type="text" placeholder="Please write your name." />
@@ -64,6 +60,14 @@
                 <div class="controls__color jsColor" style="background-color: #5856d6;"></div>
             </div>
         </div>
+    </div>
+    <div>
+        <input type="checkbox" class="checkbox" id="checkbox">
+      <label for="checkbox" class="label">
+        <i class="fas fa-moon"></i>
+        <i class='fas fa-sun'></i>
+        <div class='ball'>
+      </label>
     </div>
     <script src="app.js"></script>
     <script src="greeting.js"></script>
