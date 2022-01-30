@@ -28,10 +28,11 @@
     <title>Painting!</title>
 </head>
 
-<body>
-    <div id="buttonBG" class="toggleBG">
-        <button id="buttonID" class="toggleFG" style="left: 0px" onclick="darkModeTrans()"></button>
-    </div>
+<body class="BackGroundColor">
+    <label class="switch">
+        <input type="checkbox" id="myCheck" onclick="darkModeFunction()">
+        <span class="slider round"></span>
+      </label>
     <form id="login-form" class="hidden">
         <div class="loginBox">
             <input required maxlength="15" type="text" placeholder="Please write your name." />
