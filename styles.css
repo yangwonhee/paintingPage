@@ -36,6 +36,31 @@
   --fontsize-xs: 14px;
 }
 
+.dark-mode {
+  background-color: #434f59;
+  color: #ffffff;
+}
+
+.toggleBG {
+  margin-left: auto;
+  background: #cccccc;
+  width: 45px;
+  height: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 15px;
+  float: right;
+}
+
+.toggleFG {
+  background: var(--blue-color);
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 15px;
+  position: relative;
+  left: 0px;
+}
+
 body {
   background-color: #f6f9fc;
   font-family: "DungGeunMo";
@@ -60,6 +85,7 @@ body {
 }
 
 #login-form .loginBox input {
+  size: var(--fontsize-l);
   font-size: var(--fontsize-l);
   font-weight: 600;
   margin-top: var(--space-xs);
@@ -91,7 +117,7 @@ body {
 }
 
 .controls {
-  margin-top: 80px;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
