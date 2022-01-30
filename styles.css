@@ -37,6 +37,15 @@
   --fontsize-xs: 14px;
 }
 
+body {
+  background-color: #f6f9fc;
+  font-family: "DungGeunMo";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 50px;
+}
+
 .dark-mode {
   background-color: var(--dark-color);
   color: #ffffff;
@@ -124,15 +133,6 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
-}
-
-body {
-  background-color: #f6f9fc;
-  font-family: "DungGeunMo";
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 50px 50px;
 }
 
 .hidden {
